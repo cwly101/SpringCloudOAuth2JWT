@@ -22,7 +22,7 @@ public class DemoController {
 		map.put("香蕉", "1.6");
 		map.put("盐", "1.0");
 		map.put("usa banana", "3.3");
-
+        
 		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
 		if (auth != null) {
 			System.out.println(auth.getName());

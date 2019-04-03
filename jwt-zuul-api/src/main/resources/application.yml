@@ -1,0 +1,4 @@
+server:  port: 9092eureka:  client:    service-url:      defaultZone: http://localhost:8761/eureka/zuul:  prefix: /api  routes:    client1:      path: /client1/**      sensitive-headers:      -       service-id: client1_service
+spring:
+  application:
+    name: zuul-api

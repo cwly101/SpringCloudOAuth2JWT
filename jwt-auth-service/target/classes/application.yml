@@ -1,0 +1,12 @@
+server:   port: 9999eureka:  client:    service-url:        default-zone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: uaa-auth-service
+  redis:    host: localhost
+    port: 6379
+    password: 
+    database: 0
+    jedis:      pool:        max-active: 10  #池在给定时间可以分配的最大连接数
+        max-wait: 30 #最大等待毫秒数, 单位为 ms
+        max-idle: 10  #控制一个pool最多有多少个状态为idle的jedis实例；
+        min-idle: 10

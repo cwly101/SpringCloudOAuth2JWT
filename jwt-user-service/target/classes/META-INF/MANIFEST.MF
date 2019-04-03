@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: jwt-user-service
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: cwly1
+Implementation-Vendor-Id: com.caowei
+Build-Jdk: 1.8.0_201
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/cloud-oatuh2-jwt/jwt-user-service
+Created-By: Maven Integration for Eclipse
+
